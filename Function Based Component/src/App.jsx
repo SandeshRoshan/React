@@ -1,4 +1,5 @@
 import Person from "./Components/Person.jsx";
+import Man from "./Components/Man.jsx";
 
 import './App.css';
 
@@ -6,9 +7,9 @@ function App() {
 
   return (
     <>
-      <h1>Class Based Components</h1>
+      <h1>Function Based Components</h1>
       <Person/>
-      <Person/>
+      <Man/>
     </>
   )
 }
