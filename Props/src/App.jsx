@@ -11,7 +11,7 @@ function App() {
 
   return (
     <>
-      <h1>Introduction to jsx</h1>
+      <h1>What is Prop?</h1>
       <Intro></Intro>
       <Person/>
       <Man/>
