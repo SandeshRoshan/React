@@ -22,9 +22,11 @@
 
 
 //Named Export
-export function Man(){
+export function Man(props){
+    console.log(props);
+    console.log(typeof props);
     return(
-        <h3>Salary:100 INR</h3>
+        <h3>Salary:{props.salary} INR</h3>
     );
 }
 

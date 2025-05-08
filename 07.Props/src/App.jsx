@@ -13,10 +13,12 @@ function App() {
     <>
       <h1>What is Prop?</h1>
       <Intro></Intro>
-      <Person/>
-      <Man/>
+      <h1>Demo</h1>
+      <Person name="sr" age = '1882' />
+      <Man salary= "110343" />
     </>
   )
 }
 
 export default App
+
