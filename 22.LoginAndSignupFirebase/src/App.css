@@ -1,0 +1,39 @@
+.register-container{
+  max-width: 70vw !important;
+  /* text-align: center; */
+}
+
+.bt{
+  width: 50vw;
+  border: none;
+  color: white;
+  padding: 5px;
+  border-radius: 2px;
+}
+
+.fb{
+  background-color: rgb(57, 57, 170);
+}
+.google{
+  background-color: rgb(5, 143, 242);
+}
+
+.below{
+  /* position:absolute; */
+  padding: 5px;
+
+  height: 35px;
+  width: 35px;
+}
+
+.hrr{
+  display: inline-block;
+  width: 50%;
+}
+.or{
+  display: inline-block;
+  position: absolute;
+  z-index: 10;
+  background-color: white;
+}
+
